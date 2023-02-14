@@ -6,4 +6,9 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   },
+  env: {
+    url: "https://demo.1crmcloud.com/index.php",
+    username: "admin",
+    password: "admin",
+  },
 });
